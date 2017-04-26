@@ -1,0 +1,7 @@
+#!/bin/bash
+yad --notification --listen --image="/usr/share/icons/credencial.png" --text="Sobre Emmi Linux
+Distribuição: `lsb_release -i| cut -f2`
+Versão: `lsb_release -r| cut -f2`
+Codenome: `lsb_release -c| cut -f2`
+Kernel: `uname -r`
+Usuário: `whoami`"
