@@ -1,4 +1,6 @@
 #!/bin/bash
+# Autor: Sidnei Weber
+
 yad --notification --listen --image="/usr/share/icons/credencial.png" --text="Sobre Emmi Linux
 Distribuição: `lsb_release -i| cut -f2`
 Versão: `lsb_release -r| cut -f2`
