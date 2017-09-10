@@ -1,5 +1,6 @@
 #!/bin/bash
 # Autor: Sidnei Weber
+# Licença: https://github.com/emmilinux/emmi-info/blob/master/LICENSE
 
 yad --notification --listen --image="/usr/share/icons/credencial.png" --text="Sobre Emmi Linux
 Distribuição: `lsb_release -i| cut -f2`
